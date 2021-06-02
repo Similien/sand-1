@@ -1,0 +1,21 @@
+@import "vars";
+@mixin flex {display: flex;}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logo{
+    height:50px;
+    width:50px;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color:$nav-clr;    
+}
+
+.p-a10{padding: 10px;}

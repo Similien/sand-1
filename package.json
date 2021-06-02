@@ -1,0 +1,19 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "news site for portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"node-sass ./dist/scss/main.scss ./dist/css/style.css",
+    "mon":"nodemon -e scss -x \"npm run sass\" "
+  },
+  "author": "Smith Simlilien\u001b[D\u001b[D\u001b[\u001b[\u001b[C\u001b[milien",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}
